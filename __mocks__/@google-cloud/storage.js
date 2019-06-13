@@ -17,7 +17,12 @@ class mockStorage extends Storage {
             return new Promise((resolve, reject) => {
               resolve(true);
             });
-          }
+          },
+          save: function () {
+            return new Promise((resolve, reject) => {
+              resolve(true);
+            });
+          },
         };
       },
     };
