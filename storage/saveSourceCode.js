@@ -5,7 +5,7 @@
 const saveSourceCode = (storage, websiteId, filename, type, sourceCode) => {
   return storage
   .bucket(process.env.GOOGLE_STORAGE_BUCKET)
-  .file(`${websiteId}/${type}/${filename}`)
+  .file(`${websiteId}/${type}s/${filename}`)
   .save(sourceCode);
 };
 
