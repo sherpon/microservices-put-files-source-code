@@ -11,11 +11,11 @@ let storage;
 const saveSourceCodeStep = async (req, res) => {
   try {
     const websiteId = req.query.websiteId;
-    const fileId = req.body.id;
+    const filename = req.body.filename;
     const type = req.body.type;
     const sourceCode = req.body.sourceCode;
     storage = getStorage(storage);
-    await saveSourceCode(storage, websiteId, fileId, type, sourceCode);
+    await saveSourceCode(storage, websiteId, filename, type, sourceCode);
     res.status(204);  // send NO CONTENT
     res.end();
   } catch (error) {
