@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sherpon/microservices-put-files-sourcecode.git"
+    "url": "git+https://github.com/sherpon/microservices-put-files-source-code.git"
   },
   "author": "Bruce Grover Lee",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sherpon/microservices-put-files-sourcecode/issues"
+    "url": "https://github.com/sherpon/microservices-put-files-source-code/issues"
   },
-  "homepage": "https://github.com/sherpon/microservices-put-files-sourcecode#readme",
+  "homepage": "https://github.com/sherpon/microservices-put-files-source-code#readme",
   "devDependencies": {
     "jest": "^24.8.0"
   },
